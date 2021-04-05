@@ -1,5 +1,5 @@
 {
-  "name": "discord.js.old",
+  "name": "discord.js-nostage",
   "version": "11.6.5",
   "description": "A powerful library for interacting with the Discord API |",
   "main": "./src/index",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZzHGamerHzZ/discord.js.old.git"
+    "url": "git+https://github.com/maumaumaumaumaumau/discord.js-nostage.git"
   },
   "keywords": [
     "discord",
@@ -25,12 +25,12 @@
     "node",
     "discordapp"
   ],
-  "author": "Real______ <zzhgamerhzz@gmail.com>",
+  "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ZzHGamerHzZ/discord.js.old/issues"
+    "url": "https://github.com/maumaumaumaumaumau/discord.js-nostage/issues"
   },
-  "homepage": "https://github.com/ZzHGamerHzZ/discord.js.old#readme",
+  "homepage": "https://github.com/maumaumaumaumaumau/discord.js-nostage#readme",
   "runkitExampleFilename": "./docs/examples/ping.js",
   "dependencies": {
     "long": "^4.0.0",
