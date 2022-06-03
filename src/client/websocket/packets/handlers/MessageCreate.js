@@ -6,6 +6,7 @@ class MessageCreateHandler extends AbstractHandler {
     const client = this.packetManager.client;
     const data = packet.d;
     const response = client.actions.MessageCreate.handle(data);
+    if (!response) return;
     if (response.message) client.emit(Constants.Events.MESSAGE_CREATE, response.message);
   }
 }
