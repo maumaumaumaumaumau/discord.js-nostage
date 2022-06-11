@@ -6,6 +6,9 @@ class MessageUpdateAction extends Action {
     const client = this.client;
 
     const channel = client.channels.get(data.channel_id);
+    
+    if (!channel || channel.type === 'voice') return { message };
+    
     if (channel) {
       const message = channel.messages.get(data.id);
       if (message) {
